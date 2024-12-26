@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    height:300px;
+    width:100%;
+  
+    margin-top: 0;
+    gap:30px;
+    margin-bottom: 20px;
+    
+}
+
+.header{
+    display: flex;
+   align-items: center;
+   width:100%;
+
+}
+.paragraph{
+    padding-left: 600px;
+    width:80%;
+}
+ .container > div{
+    flex:1;
+
+}
+.image{
+    width:100%;
+    height:100%;
+}
+.container > .card-right{
+    padding-top:30px ;
+    padding-right: 50px;
+    font-family: sans-serif;
+ 
+   
+   
+
+}
+.card-right > .time{
+    width:58%;
+}
+
+ .shop{
+    background-color: orangered;
+    padding:10px;
+    border:none;
+    color:white;
+}
+.para{
+    font-size: 18px;
+}
+.para-one{
+    font-size: 30px;
+    font-weight: bold;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    
+  }
+  .heart-beat,.heart{
+    position: absolute;
+    top:20px;
+    right:25px;
+    background-color: aliceblue;
+   
+}
+.open,.open-with{
+    position: absolute;
+    top:50px;
+    right:25px;
+    background-color: aliceblue;
+}
+.wei,.weight{
+    position: absolute;
+    top:80px;
+    right:25px;
+    background-color: aliceblue;
+}
+.leftWapper > .card,.rightWapper > .card{
+    position: relative;
+}
+.button{
+    position: absolute;
+    top:20px;
+    left:30px;
+    padding:10px;
+    color:green;
+    
+ }
+ .wapper{
+    display: flex;
+    gap:20px;
+ }
+ .wapper > .leftWapper ,.rightWapper{
+    display: flex;
+    gap:3px
+ }
+ .leftWapper > div,.rightWapper > div{
+    flex-basis: 200px;
+    flex:1;
+ }
+ .leftWapper,.rightWapper{
+    outline: 2px solid gray;
+ }
+ .leftWapper > .card >img, .rightWapper > .card >img{
+    width:100%;
+    height:100%;
+ }
+ .leftWapper > .card ,.text, .rightWapper > .card,.text{
+    padding-top: 10px;
+    margin:10px;
+ }
+
+ .leftWapper > .card ,.rightWapper > .card{
+    background-color: gray;
+ }
+ .div-container{
+    display: flex;
+    margin-top:50px;
+    gap:20px;
+ }
+.left-container, .right-container{
+    display: flex;
+}
+.div-container > div{
+    flex:1;
+}
+.left-container{
+    background-color: grey;
+}
+.right-container{
+    background-color: orange;
+}
+.left-container > div , .right-container > div{
+    flex:1;
+}
+.left-container > .card >img ,.right-container > .card > img{
+    width:100%;
+    height:100%;
+
+
+}
+.left-container > .text > button{
+    background-color: orange ;
+    padding:15px;
+    border: none;
+}
+.right-container > .text > button{
+    background-color:#582f0e ;
+    padding:15px;
+    border: none;
+    
+}
+
+
+.para{
+    /* margin-top: 100px; */
+    line-height: 4px;
+}
+.div-button{
+    background-color: orange;
+    padding: 20px;
+    border: none;
+}
+.divp-containr > .right-container >button{
+    background-color:#582f0e ;
+    padding:20px;
+    border:none;
+     margin-left: 12px; 
+} 
+.image-container{
+    background-color: gray;
+    width:61%;
+    margin:0 auto;
+    height:300px;
+    /* margin-left: 15%; */
+}
+.image-container > .text{
+    text-align: center;
+}
+ .card-image{
+    margin-left:8px;
+    margin-right: 8px;
+} 
+.div-header{
+    display: flex   ;
+    align-items: center;
+    
+}
+.button-container{
+    padding-left: 550px;
+}
+.button-container > .div-button{
+    background-color: orange;
+    padding:20px;
+    margin-right: 12px;
+}
+.button-container >button {
+    background-color: #582f0e;
+    padding:20px;
+    border: none;
+}
+.card-container{
+    display: flex;
+    /* border: 2px solid gray; */
+    /* background-color: gray; */
+    
+  
+}
+.card-container > .card{
+    flex-basis: 300px;
+    /* width:30%; */
+    padding:20px;
+     /* background-color: white;   */
+}
+.card-container > .text{
+    flex-basis: 500px;
+}
+.head-container{
+    
+    width:70%;
+    outline: 2px solid gray;
+    
+
+
+   
+    
+
+}
+/* .image-product{
+    background-color: white;
+} */
+.image-product > img{
+    width:100%;
+    text-align: center;
+}
+.card-container > .text {
+    margin:32px;
+}
+
+.card-container > .card > .tex{
+    padding:20px;
+    margin:20px;
+}
+
+.block-container > .block-header{
+    text-align: center;
+}
+.block-card{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.block-card > div {
+    flex-basis: 300px;
+    
+}
+.cardOne {
+    position: relative;
+  
+}
+.cardOne > button{
+    background-color: orange;
+    color:black;
+    font-size: 16px;
+    padding:8px;
+    border:2px solid white;
+    position: absolute;
+    right:0;
+    bottom:0;
+   
+}
+.block-container{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
